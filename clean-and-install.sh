@@ -20,11 +20,17 @@ mkdir -p ~/.config/nvim
 cp -r nvim_base/* ~/.config/nvim
 
 
-# Load files
-echo "Cloaning everforest"
+# Everforest theme
+echo "Setting up: Theme Everforest"
 mkdir -p ~/.config/nvim/pack/themes/start
 cd ~/.config/nvim/pack/themes/start
-git clone https://github.com/sainnhe/everforest.git
+git clone --quiet https://github.com/sainnhe/everforest.git
+
+
+# Todo-higlight
+echo "Setting up: Folke-todohighlight"
+git clone --quiet https://github.com/nvim-lua/plenary.nvim ~/.config/nvim/pack/vendor/start/plenary.nvim
+git clone --quiet https://github.com/folke/todo-comments.nvim ~/.config/nvim/pack/vendor/start/todo-comments.nvim
 
 echo "Setup complete."
 
