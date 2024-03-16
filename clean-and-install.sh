@@ -44,5 +44,11 @@ git clone --quiet https://github.com/numToStr/Comment.nvim ~/.config/nvim/pack/p
 # Gitsigns
 echo "Setting up: Gitsigns"
 git clone --quiet https://github.com/lewis6991/gitsigns.nvim.git ~/.config/nvim/pack/plugins/start/gitsigns.nvim
+
+# Gitsigns
+echo "Setting up: folke Whichkey"
+git clone --quiet https://github.com/folke/which-key.nvim.git ~/.config/nvim/pack/plugins/start/which-key.nvim
+
+
 echo "Setup complete."
 
