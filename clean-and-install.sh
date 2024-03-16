@@ -32,5 +32,15 @@ echo "Setting up: Folke-todohighlight"
 git clone --quiet https://github.com/nvim-lua/plenary.nvim ~/.config/nvim/pack/vendor/start/plenary.nvim
 git clone --quiet https://github.com/folke/todo-comments.nvim ~/.config/nvim/pack/vendor/start/todo-comments.nvim
 
+# vim-sleuth
+echo "Setting up: vim-sleuth"
+git clone --quiet https://github.com/tpope/vim-sleuth.git ~/.config/nvim/pack/plugins/start/vim-sleuth
+
+
+# vim-sleuth
+echo "Setting up: Comment"
+git clone --quiet https://github.com/numToStr/Comment.nvim ~/.config/nvim/pack/plugins/start/Comment
+
+
 echo "Setup complete."
 
