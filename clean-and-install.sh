@@ -37,10 +37,12 @@ echo "Setting up: vim-sleuth"
 git clone --quiet https://github.com/tpope/vim-sleuth.git ~/.config/nvim/pack/plugins/start/vim-sleuth
 
 
-# vim-sleuth
+# Comment
 echo "Setting up: Comment"
-git clone --quiet https://github.com/numToStr/Comment.nvim ~/.config/nvim/pack/plugins/start/Comment
+git clone --quiet https://github.com/numToStr/Comment.nvim ~/.config/nvim/pack/plugins/start/Comment.nvim
 
-
+# Gitsigns
+echo "Setting up: Gitsigns"
+git clone --quiet https://github.com/lewis6991/gitsigns.nvim.git ~/.config/nvim/pack/plugins/start/gitsigns.nvim
 echo "Setup complete."
 

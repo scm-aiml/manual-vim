@@ -5,4 +5,5 @@ require("user.remap")
 -- Plugins
 require("user.everforest")
 require("user.yank-highlight")
+require("user.gitsigns")
 require("user.comment")
