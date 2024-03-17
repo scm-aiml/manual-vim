@@ -29,8 +29,8 @@ git clone --quiet https://github.com/sainnhe/everforest.git
 
 # Todo-higlight
 echo "Setting up: Folke-todohighlight"
-git clone --quiet https://github.com/nvim-lua/plenary.nvim ~/.config/nvim/pack/vendor/start/plenary.nvim
-git clone --quiet https://github.com/folke/todo-comments.nvim ~/.config/nvim/pack/vendor/start/todo-comments.nvim
+git clone --quiet https://github.com/nvim-lua/plenary.nvim ~/.config/nvim/pack/plugins/start/plenary.nvim
+git clone --quiet https://github.com/folke/todo-comments.nvim ~/.config/nvim/pack/plugins/start/todo-comments.nvim
 
 # vim-sleuth
 echo "Setting up: vim-sleuth"
@@ -49,6 +49,10 @@ git clone --quiet https://github.com/lewis6991/gitsigns.nvim.git ~/.config/nvim/
 echo "Setting up: folke Whichkey"
 git clone --quiet https://github.com/folke/which-key.nvim.git ~/.config/nvim/pack/plugins/start/which-key.nvim
 
+
+# Gitsigns
+echo "Setting up: autoformat"
+git clone --quiet https://github.com/stevearc/conform.nvim.git ~/.config/nvim/pack/plugins/start/conform.nvim
 
 echo "Setup complete."
 
