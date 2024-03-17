@@ -61,12 +61,16 @@ if command -v make &> /dev/null; then
     cd ~/.config/nvim/pack/plugins/start/telescope-fzf-native.nvim
     echo "Make telescope-fzf-native"
     make
-    cd ~/Documents/repo/nvim-manual
+    cd ~/Documents/repos/manual-vim
 fi
 git clone --quiet https://github.com/nvim-telescope/telescope-ui-select.nvim.git ~/.config/nvim/pack/plugins/start/telescope-ui-select.nvim
 # If you have a Nerd Font and want icons
 git clone --quiet https://github.com/nvim-tree/nvim-web-devicons.git ~/.config/nvim/pack/plugins/start/nvim-web-devicons.nvim
 
+
+# lspconfig
+echo "Setting up: nvim-lspconfig"
+git clone --quiet https://github.com/neovim/nvim-lspconfig.git ~/.config/nvim/pack/plugins/start/nvim-lspconfig.git
 
 
 echo "Setup complete."
